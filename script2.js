@@ -1,4 +1,4 @@
-// Set String
+// Set Character String or placeholder
 const abcUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const abcUpperArr = abcUpper.split("");
 const abcLower = "abcdefghijklmnopqrstuvwxyz";
@@ -11,6 +11,18 @@ const symArr = sym.split("");
 //Prompt the user with Walcome and Instructions
 
 window.onload = alert("Welcome! Please click 'Generate password' to start!");
+
+//
+function generatePass() {
+  const allChars = [];
+
+
+
+
+
+
+
+
 
 
 
@@ -38,7 +50,6 @@ function writePassword(length, Characters) {
 
   passwordText.value = password;
 
-}
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+ generateBtn.addEventListener("click", writePassword)
