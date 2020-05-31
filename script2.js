@@ -1,19 +1,32 @@
+// Set String
+const abcUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const abcUpperArr = abcUpper.split("");
+const abcLower = "abcdefghijklmnopqrstuvwxyz";
+const abcLowerArr = abcLower.split("");
+const num = "0123456789";
+const numArr = num.split("");
+const sym = "!#$%&\()*+,-./:;<=>?@^[\\]^_`{|}~";
+const symArr = sym.split("");
+
+//Prompt the user with Walcome and Instructions
+
+window.onload = alert("Welcome! Please click 'Generate password' to start!");
+
+
+
+
+
+
+
+
+
+
+
 //Need password page to prompt user
 const plength = Number(prompt("How many characters would you like your password to be?"));
 
 const generateBtn = document.querySelector("#generate");
 
-const uppers = confirm("Would you like to use uppercase letters");
-const lowers = confirm("Would you like to use lowercase letters?");
-const numbers = confirm("Would you like to use numbers?");
-const specialCharacters = confirm("Would you like to use special characters"); 
-
-//Element Identifiers 
-const uppersCaseLetters = document.getElementById("uppers");
-const lowerCaseLetters = document.getElementById("lower");
-const numbers = document.getElementById("numbers");
-const specialCharacters = document.getElementById("special");
-  
 // Write password to the #password input
 function writePassword(length, Characters) {
     
