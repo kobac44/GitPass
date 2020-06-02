@@ -16,24 +16,6 @@ window.onload = alert("Welcome! Please click 'Generate password' to start!");
 function generatePass() {
   const allChars = [];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Need password page to prompt user
 const plength = Number(prompt("How many characters would you like your password to be?"));
 
