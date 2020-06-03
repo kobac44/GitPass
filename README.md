@@ -7,12 +7,12 @@ Please visit the deployed project at
 
 # Instructions
 Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. The user will be prompted to choose from the following password criteria:
-#1 Length (must be between 8 and 128 characters)
-#2 Character type:
-#3 Special characters
-#4 Numeric characters
-#5 Lowercase characters
-#6 Uppercase characters
+1 Length (must be between 8 and 128 characters)
+2 Character type:
+3 Special characters
+4 Numeric characters
+5 Lowercase characters
+6 Uppercase characters
 
 ## Acceptance Criteria
 ```
